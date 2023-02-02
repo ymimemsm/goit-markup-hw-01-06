@@ -726,7 +726,7 @@ font-size: 12px;
 line-height: 1.33;
 letter-spacing: 0.04em;
 color: #757575;
-gap: 8px;
+
 
 
 }
@@ -737,6 +737,7 @@ gap: 8px;
   height: 16px;
   border: 1.25px solid #2E2F42;
   border-radius: 2px;
+  margin-right: 8px;
  
 }
 .check-box-form:checked +.check-box-text::before{
@@ -754,24 +755,25 @@ letter-spacing: 0.04em;
 letter-spacing: 0.04em;
 text-decoration-line: underline;
 color: var(--main-color);
+margin-left: 4px;
 
 
 }
+
 .button-submit{
+  font-family: inherit;
   background: var(--main-color);
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  color: #FFFFFF;
-  align-items: center;
+  color: #FFFFFF;  
   text-align: center;
-  letter-spacing: 0.04em;  
-  padding-top: 24px;
-  padding-bottom: 24px;
-  width: 169px;
+  letter-spacing: 0.04em;   
+  width: 169px;    
   margin-top: 24px;
-  display: flex;
-  justify-content: center;  
-  align-items: center;
+  padding-top: 19px;
+  padding-bottom: 19px;
+  
+  
  
  
   border: 0;
@@ -787,6 +789,7 @@ color: var(--main-color);
 .button-submit-flex{
   display: flex;
   justify-content: center;
+  
 }
 
 
