@@ -40,6 +40,7 @@ img{
   margin-right: auto; 
   /* outline: 2px solid red;     */
 }
+
 /* --------------------------Comon--------------------------  */
 .maintext{
   font-weight: 400;
@@ -459,9 +460,11 @@ fill:var(--second-main-color);
 }
   
 
-  .v{
+  .v{ 
    
-  width: 264px;
+   max-width: 264px;
+
+
   
   }
 .footer-text-last{
@@ -484,8 +487,6 @@ fill:var(--second-main-color);
 }
 .footer-social-links:focus{
   background-color: #31D0AA;
-
-
 }
 
 
@@ -495,10 +496,12 @@ fill:var(--second-main-color);
 }
 
 .footer-social{
-  display: flex;
-  gap: 16px;
+  display: flex;  
   margin-top: 16px;
   margin-left: 120px;
+}
+.footer-social :not(:last-child){
+  margin-right: 16px;
 }
 .h4-footer{
   font-weight: 600;    
@@ -509,10 +512,14 @@ fill:var(--second-main-color);
 
 }
 .footer-subscribe{
+  
   margin-left: 80px;
+ 
+ 
   
 }
 .footer-subscribe-p{
+  
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -526,7 +533,7 @@ fill:var(--second-main-color);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   background-color:transparent;
-  width: 264px;
+  min-width: 264px;
   height: 40px;
   color: rgba(255, 255, 255, 0.6);
   padding-left: 16px;
@@ -559,11 +566,15 @@ fill:var(--second-main-color);
 
 }
 
+
 .footer-subscriber-flex{
-  display: flex;
-  gap: 24px;
-  position: relative;
+ display: flex;
+  gap: 24px;    
   
+}
+.subscriber-icon-main{
+  position: relative;
+  display: flex;
 }
 .foorter-subscribe-svg{
   position: absolute;

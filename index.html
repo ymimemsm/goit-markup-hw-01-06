@@ -437,10 +437,12 @@ rel="stylesheet"
               <form class="footer-subscribe-form">
                 <div class="footer-subscriber-flex">
                   <input type="email" name="subscriber-email" class="footer-input-subscriber" placeholder="E-mail" required>   
-                  <button type="submit" class="footer-subscriber-button">Subscribe</button>                
-                <svg class="foorter-subscribe-svg" width="24" height="24">
-                  <use href="./images/sprite.svg#icon-telegramm"></use>                  
-                </svg>
+                  <div class="subscriber-icon-main">
+                    <button type="submit" class="footer-subscriber-button">Subscribe</button>                
+                    <svg class="foorter-subscribe-svg" width="24" height="24">
+                      <use href="./images/sprite.svg#icon-telegramm"></use>                  
+                    </svg>
+                  </div>
               </div>
               </form>
 
@@ -486,7 +488,7 @@ rel="stylesheet"
           <span class="form-name-tel-email">Comment</span>            
           <textarea name="Client_message" class="textarea-form" placeholder="Text-input"></textarea>
 
-          <input id="user_policy" type="checkbox" class="check-box-form visually-hidden">            
+          <input id="user_policy" type="checkbox" class="check-box-form visually-hidden" required>            
           <label class="check-box-text " for="user_policy" >I accept the terms and conditions of the <span><a class="Privacy-policy" href="">Privacy Policy</a></span></label>
             
           <div class="button-submit-flex"><button type="submit" class="button-submit">Send</button></div>
